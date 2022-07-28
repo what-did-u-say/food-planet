@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@700&display=swap');
+
+.nawBar ul li {
+    display: inline;
+    list-style: none;
+    margin-left: 40px;
+}
+
+.nawBar {
+    margin-left: 40px;
+    display: flex;
+    align-items: center;
+}
+
+.nawBar a {
+    text-decoration: none;
+    color: black;
+}
+
+.navBar h1 {
+    color: #254F4C;
+    margin: 0 60px 0 140px;
+    font-size: 28px;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+.menu {
+    display: flex;
+}
+
+.product_block {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #254F4C;
+    width: 265px;
+    margin: 80px 18px;
+    color: white;
+    border-radius: 45px;
+}
+
+.description {
+    width: 231px;
+    text-align: center;
+    margin: 0 0 7px;
+
+}
+
+.product_block button {
+    background-color: #FF583E;
+    color: #fff;
+    border: 0;
+    padding: 13px 65px;
+    border-radius: 35px;
+    font-size: 15px;
+    cursor: pointer;
+    margin: 0;
+}
+
+.product_block b {
+    font-size: 35px;
+    color: #FF583E;
+    margin: -20px 8px;
+    cursor: pointer;
+}
+
+.amount {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 24px;
+}
+
+.product_block h3 {
+    margin: 0;
+}
+
+.product_block img {
+    margin-top: -45px;
+}

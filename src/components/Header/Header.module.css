@@ -1,0 +1,22 @@
+.Header{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+ }
+ .Header ul li {
+    display: inline;
+    list-style: none;
+    margin-left: 60px;
+ }
+ .Header a{
+    text-decoration: none;
+    color: black;
+    font-size: 18px;
+ }
+ .Header b {
+    margin: 3px;
+    color:#FF583E;
+ }
+ img{
+    margin-left: 4px;
+ }

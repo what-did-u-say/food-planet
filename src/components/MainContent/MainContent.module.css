@@ -1,0 +1,33 @@
+.Container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 30px;
+ 
+ }
+ .Content{
+    width: 358px;
+ }
+ .Content button{
+    display: flex;
+    align-items: center;
+    background-color: #FF583E;
+    color: #fff;
+    border: 0;
+    padding: 10px 20px;
+    border-radius: 35px;
+    font-size: 15px;
+    cursor: pointer;
+ }
+ .burger{
+    width: 500px;
+    
+ }
+ .Content h1{
+    color: #254F4C;
+    font-size: 34px;
+ }
+ .Content p{
+    font-weight: 300;
+    font-size: 16px;
+ }
