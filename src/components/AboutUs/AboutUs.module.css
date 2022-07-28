@@ -1,0 +1,54 @@
+.aboutUs h1 {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 25px;
+    line-height: 29px;
+    color: #254F4C;
+    margin-bottom: 100px;
+    text-align: left;
+    padding-left: 10px;
+}
+
+.UAbout {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    width: 1150px;
+    gap: 15px;
+}
+
+.UAbout img {
+    text-align: center;
+    padding-left: 70px;
+    height: 88px;
+    width: 88px;
+    margin-bottom: 1px;
+}
+
+.UAbout h4 {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 23px;
+    color: #254F4C;
+    width: 216px;
+    text-align: center;
+    height: 24px;
+    padding-left: 15px;
+    margin-bottom: 8px;
+}
+
+.UAbout p {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+    text-align: center;
+    color: #1D3130;
+    width: 255px;
+    height: 48px;
+}

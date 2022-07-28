@@ -1,0 +1,133 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@700&display=swap');
+
+.nawBar ul li {
+    display: inline;
+    list-style: none;
+    margin-left: 40px;
+}
+
+.nawBar {
+    margin-left: 80px;
+    margin-bottom: 10px;
+    display: flex;
+    align-items: center;
+}
+
+.nawBar a {
+    text-decoration: none;
+    color: black;
+}
+
+.navBar h1 {
+    color: #254F4C;
+    margin: 0 60px 0 140px;
+    font-size: 28px;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+.filter {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    margin-bottom: 50px;
+    margin-right: 50px;
+}
+
+.filter p {
+    font-size: 14px;
+    line-height: 16px;
+    color: #1D3130;
+    margin-right: 10px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+}
+
+.filter button {
+    cursor: pointer;
+    border-color: rgba(196, 196, 196, 1);
+    color: #1D3130;
+    border: 1px solid #C4C4C4;
+    padding: 6px 15px;
+}
+
+.menu {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    width: 1250px;
+}
+
+.product_block {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: transparent;
+    width: 265px;
+    margin: 80px 18px;
+    color: rgba(37, 79, 76, 1);
+    border-radius: 45px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.description {
+    width: 231px;
+    text-align: center;
+    margin: 0 0 7px;
+
+}
+
+.product_block button {
+    background-color: rgba(37, 79, 76, 1);
+    color: #fff;
+    border: 0;
+    padding: 13px 65px;
+    border-radius: 35px;
+    font-size: 15px;
+    cursor: pointer;
+    margin: 0;
+}
+
+.product_block b {
+    font-size: 35px;
+    color: rgba(37, 79, 76, 1);
+    margin: -20px 8px;
+    cursor: pointer;
+}
+
+.amount {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 24px;
+}
+
+.product_block h3 {
+    margin: 0;
+}
+
+.product_block img {
+    margin-top: -45px;
+}
+
+.more {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 50px;
+}
+
+.more button {
+    background-color: transparent;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 14px;
+    line-height: 147.19%;
+    text-transform: uppercase;
+    color: #FF583E;
+    border: 1px solid #FF583E;
+    border-radius: 40px;
+    padding: 15px 40px;
+}
