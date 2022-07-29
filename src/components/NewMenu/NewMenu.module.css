@@ -17,9 +17,15 @@
     color: black;
 }
 
-.navBar h1 {
+.nawBar a:hover{
+    color: #CE242B; /* Цвет ссылки при наведении */ 
+    text-decoration: underline;
+}
+
+.nawBar h1 {
+    cursor: pointer;
     color: #254F4C;
-    margin: 0 60px 0 140px;
+    margin: 0 60px 0 10px;
     font-size: 28px;
     font-family: 'Roboto Condensed', sans-serif;
 }
@@ -38,6 +44,11 @@
     margin: 80px 18px;
     color: white;
     border-radius: 45px;
+    transition: 1s;
+}
+
+.product_block:hover{
+    transform: scale(1.1); /* Увеличиваем масштаб */
 }
 
 .description {

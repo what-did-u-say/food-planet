@@ -6,7 +6,7 @@ import styles from "./Footer.module.css"
 
 const Footer = () => {
 	return (
-		<header className={styles.Footer}>
+		<footer className={styles.Footer}>
 			<a href="/"><img src={iconsFoodPlanet} alt="" /></a>
 			<div>
 				<ul>
@@ -28,7 +28,7 @@ const Footer = () => {
 					</li>
 				</ul>
 			</div>
-		</header>
+		</footer>
 	);
 };
 
