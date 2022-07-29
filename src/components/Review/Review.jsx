@@ -1,6 +1,6 @@
 import React from 'react';
 import styles from './Review.module.css';
-import { reviews } from '../../Info/main';
+import { reviews, } from '../../Info/main';
 
 const Reviews = () => {
     return (

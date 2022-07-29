@@ -1,4 +1,9 @@
+.reviews {
+    width: 100%;
+}
+
 .reviews h2 {
+    margin-left: 150px;
     margin-top: 50px;
     color: #254F4C;
     margin-bottom: 60px;
@@ -7,15 +12,16 @@
 .review_desc {
     display: flex;
     justify-content: center;
-    gap: 32px;
+    gap: 30px;
     list-style: none;
 }
 
 .review_list {
-    width: 240px;
+    width: 300px;
     text-align: center;
-    border: 2px solid #1D3130;
-    border-radius: 40px;
+    background-image: url(../../assets/icons/grp32.svg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
 }
 
 .review_list h3 {
@@ -30,7 +36,7 @@
 }
 
 .review_list img {
-    margin-top: 24px;
+    margin-top: 50px;
 }
 
 .p_date {

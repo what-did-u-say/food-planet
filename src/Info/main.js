@@ -15,6 +15,7 @@ import choi2 from "../assets/icons/salad.svg"
 import choi3 from "../assets/icons/grp27.svg"
 import choi4 from "../assets/icons/gis.svg"
 import userImg from "../assets/img/elp12.png"
+import borderimg from "../assets/icons/grp32.svg"
 
 export const nawBar = [
     {
@@ -138,8 +139,8 @@ export const New_Pizza = [
 ];
 
 
-
-export const Choose_Us = [
+export const Choose_Us =
+[
     {
         img: [choi1],
         title: "Мгновненная доставка",
@@ -164,6 +165,10 @@ export const Choose_Us = [
         description:
             "Мы быстро доставляем вашу еду по указанному адресу",
     },
+]
+
+export const borderI = [
+    {img: [borderimg],}
 ]
 
 
