@@ -1,0 +1,41 @@
+.reviews h2 {
+    margin-top: 50px;
+    color: #254F4C;
+    margin-bottom: 60px;
+}
+
+.review_desc {
+    display: flex;
+    justify-content: center;
+    gap: 32px;
+    list-style: none;
+}
+
+.review_list {
+    width: 240px;
+    text-align: center;
+    border: 2px solid #1D3130;
+    border-radius: 40px;
+}
+
+.review_list h3 {
+    color: #3B7976;
+}
+
+.review_list p {
+    color: #061817;
+    padding: 10px 20px;
+    text-align: center;
+    height: 50px;
+}
+
+.review_list img {
+    margin-top: 24px;
+}
+
+.p_date {
+    color: #3B7976;
+    font-size: 14px;
+    margin-top: 90px;
+    margin-bottom: 0;
+}

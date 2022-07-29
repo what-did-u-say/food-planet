@@ -14,6 +14,7 @@ import choi1 from "../assets/icons/bus.svg"
 import choi2 from "../assets/icons/salad.svg"
 import choi3 from "../assets/icons/grp27.svg"
 import choi4 from "../assets/icons/gis.svg"
+import userImg from "../assets/img/elp12.png"
 
 export const nawBar = [
     {
@@ -162,5 +163,37 @@ export const Choose_Us = [
         title: "Доставка",
         description:
             "Мы быстро доставляем вашу еду по указанному адресу",
+    },
+]
+
+
+export const reviews = [
+    {
+        img: [userImg],
+        userName: "Сергей",
+        description:
+            "Большое спасибо! 5 пицц доставили даже быстрее чем планировалось. Пицца была горячая и всему коллективу понравилась! День Рождения прошел отлично! :)",
+        date: "02.07.2022",
+    },
+    {
+        img: [userImg],
+        userName: "Сергей",
+        description:
+            "Очень вкусные роллы Хаки, всем рекомендую! заказали в первый раз и теперь станем постоянными клиентами! Спасибо!",
+        date: "02.07.2022",
+    },
+    {
+        img: [userImg],
+        userName: "Сергей",
+        description:
+            "Очень избирателен в еде, и Уже в третий раз не разочаровываюсь в Food Planet, советую всем! Жена тоже довольна!",
+        date: "02.07.2022",
+    },
+    {
+        img: [userImg],
+        userName: "Сергей",
+        description:
+            "Хочу поблагодарить за бургер !Очень вкусненький в меру остренький) Спасибо,удивили!)",
+        date: "02.07.2022",
     },
 ]

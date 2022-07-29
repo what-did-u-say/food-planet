@@ -7,6 +7,7 @@ import Header from './components/Header/Header'
 import MainContent from './components/MainContent/MainContent'
 import Menu from './components/Menu/Menu'
 import NewMenu from './components/NewMenu/NewMenu'
+import Review from './components/Review/Review'
 
 const App = () => {
   return (
@@ -16,6 +17,7 @@ const App = () => {
       <NewMenu/>
       <Menu/>
       <AboutUs/>
+      <Review/>
       <Footer/>
     </>
   )

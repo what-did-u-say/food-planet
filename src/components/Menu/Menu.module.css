@@ -119,6 +119,7 @@
 }
 
 .more button {
+    cursor: pointer;
     background-color: transparent;
     font-family: 'Roboto', sans-serif;
     font-weight: 700;
