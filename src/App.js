@@ -9,7 +9,7 @@ import MainContent from './components/MainContent/MainContent'
 import Menu from './components/Menu/Menu'
 import NewMenu from './components/NewMenu/NewMenu'
 import Review from './components/Review/Review'
-import NotFound from './components/NotFound/NotFound'
+import NotFound from './pages/NotFound/NotFound'
 
 const App = () => {
   return (
