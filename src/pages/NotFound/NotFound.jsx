@@ -1,8 +1,13 @@
 import React from 'react'
+import styles from './NotFound.module.css'
 
 const NotFound = () => {
   return (
-    <div>NotFound</div>
+  <notF className={styles.notF}>
+    <code className={styles.NotFound}>
+    {"{"}--<span>:+404 NOT FOUND+:</span>--{"}"}
+  </code>
+  </notF>
   )
 }
 
