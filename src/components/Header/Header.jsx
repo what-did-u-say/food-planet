@@ -4,32 +4,33 @@ import subselection from "../../assets/icons/vniz.svg";
 import phone from "../../assets/icons/phone.svg"
 import basket from "../../assets/icons/korzina.svg"
 import styles from "./Header.module.css"
+import { NavLink } from "react-router-dom";
 
 const Header = () => {
 	return (
 		<header className={styles.Header}>
-			<a href="/"><img src={iconsFoodPlanet} alt="" /></a>
+			<NavLink to="/"><img src={iconsFoodPlanet} alt="" /></NavLink>
 			<div>
 				<ul>
 					<li>
-						<a href="/">Главная</a>
+						<NavLink to="/">Главная</NavLink>
 					</li>
 					<li>
-						<a href="/menu">Меню </a>
+						<NavLink to="/menu">Меню </NavLink>
 						<img src={subselection} alt="" />
 					</li>
 					<li>
-						<a href="/delivery">Доставка</a>
+						<NavLink to="/delivery">Доставка</NavLink>
 					</li>
 					<li>
-						<a href="/contacts">Контакты</a>
+						<NavLink to="/contacts">Контакты</NavLink>
 					</li>
 					<li>
-						<a href="/phone"> <img src={phone} alt="" /> +996500405988</a>
+						<NavLink to="/phone"> <img src={phone} alt="" /> +996500405988</NavLink>
 					</li>
 					<li>
-						<a href="/basket">
-							<img src={basket} alt="" /><b>1</b></a>
+						<NavLink to="/basket">
+							<img src={basket} alt="" /><b>1</b></NavLink>
 					</li>
 				</ul>
 			</div>

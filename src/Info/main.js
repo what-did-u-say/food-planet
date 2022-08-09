@@ -51,28 +51,40 @@ export const nawBar = [
 
 export const New_Content = [
     {
+        id: 1,
+        number: 'number1',
         img: [tofu_burger],
         title: "Чизбургер",
+        count:0,
         description:
             "Булка, котлета,сыр, соленый огурец, лук, помидор, салат айсберг, соус чесночный, соус гриль, кетчуп, майонез",
         price: "200",
     },
     {
+        id: 2,
+        number: 'number2',
         img: [cheeseburger1],
         title: "Чизбургер",
+        count:0,
         description:
             "Булка, котлета,сыр, соленый огурец, лук, помидор, салат айсберг, соус чесночный, соус гриль, кетчуп, майонез",
         price: "200",
     },
     {
+        id: 3,
+        number: 'number3',
         img: [cheeseburger2],
+        count:0,
         title: "Чизбургер",
         description:
             "Булка, котлета,сыр, соленый огурец, лук, помидор, салат айсберг, соус чесночный, соус гриль, кетчуп, майонез",
         price: "200",
     },
     {
+        id: 4,
+        number: 'number4',
         img: [cheeseburger3],
+        count:0,
         title: "Чизбургер",
         description:
             "Булка, котлета,сыр, соленый огурец, лук, помидор, салат айсберг, соус чесночный, соус гриль, кетчуп, майонез",
@@ -82,6 +94,8 @@ export const New_Content = [
 
 export const New_Pizza = [
     {
+        id: 1,
+        count: 0,
         img: [pica1],
         title: "Мексиканская",
         description:
@@ -89,6 +103,8 @@ export const New_Pizza = [
         price: "200",
     },
     {
+        id: 2,
+        count: 0,
         img: [pica2],
         title: "Мексиканская",
         description:
@@ -96,6 +112,8 @@ export const New_Pizza = [
         price: "200",
     },
     {
+        id: 3,
+        count: 0,
         img: [pica3],
         title: "Мексиканская",
         description:
@@ -103,6 +121,8 @@ export const New_Pizza = [
         price: "200",
     },
     {
+        id: 4,
+        count: 0,
         img: [pica4],
         title: "Мексиканская",
         description:
@@ -110,6 +130,8 @@ export const New_Pizza = [
         price: "200",
     },
     {
+        id: 5,
+        count: 0,
         img: [pica5],
         title: "Мексиканская",
         description:
@@ -117,6 +139,8 @@ export const New_Pizza = [
         price: "200",
     },
     {
+        id: 6,
+        count: 0,
         img: [pica6],
         title: "Мексиканская",
         description:
@@ -124,6 +148,8 @@ export const New_Pizza = [
         price: "200",
     },
     {
+        id: 7,
+        count: 0,
         img: [pica7],
         title: "Мексиканская",
         description:
@@ -131,6 +157,8 @@ export const New_Pizza = [
         price: "200",
     },
     {
+        id: 8,
+        count: 0,
         img: [pica8],
         title: "Мексиканская",
         description:
@@ -141,32 +169,32 @@ export const New_Pizza = [
 
 
 export const Choose_Us =
-[
-    {
-        img: [choi1],
-        title: "Мгновненная доставка",
-        description:
-            "Доставим заказанную вами еду за 30 минут + напиток в подарок",
-    },
-    {
-        img: [choi2],
-        title: "Свежие продукты",
-        description:
-            "Вся продукция хранится в хороших условиях тем самым продливая срок хранения",
-    },
-    {
-        img: [choi3],
-        title: "Уникальное меню",
-        description:
-            "Ежедневно мы обновляем наше меню и том числе коктейльное",
-    },
-    {
-        img: [choi4],
-        title: "Доставка",
-        description:
-            "Мы быстро доставляем вашу еду по указанному адресу",
-    },
-]
+    [
+        {
+            img: [choi1],
+            title: "Мгновненная доставка",
+            description:
+                "Доставим заказанную вами еду за 30 минут + напиток в подарок",
+        },
+        {
+            img: [choi2],
+            title: "Свежие продукты",
+            description:
+                "Вся продукция хранится в хороших условиях тем самым продливая срок хранения",
+        },
+        {
+            img: [choi3],
+            title: "Уникальное меню",
+            description:
+                "Ежедневно мы обновляем наше меню и том числе коктейльное",
+        },
+        {
+            img: [choi4],
+            title: "Доставка",
+            description:
+                "Мы быстро доставляем вашу еду по указанному адресу",
+        },
+    ]
 
 
 export const reviews = [
