@@ -1,33 +1,89 @@
-.notF {
-    width: 600px;
-    height: 800px;
-    box-sizing: border-box;
+@import url(https://fonts.googleapis.com/css?family=Maven+Pro:400,900);
+
+#notfound {
+    margin-top: 50px;
 }
 
-code {
-    font-size: 4em;
-    display: block;
-    position: relative;
-    color: rgba(95%, 43%, 9%, 1);
+.notfound {
+    max-width: 920px;
+    width: 100%;
+    line-height: 1.4;
     text-align: center;
-    top: 390px;
-    zoom: 0.9;
-    margin: 0 auto;
-    text-shadow: 0 0 35px rgba(95%, 43%, 9%, 1);
-    -webkit-animation: spin-360 5s infinite;
-    -webkit-box-reflect: below 5px -webkit-gradient(linear, left top, left bottom, from(transparent), color-stop(0.5, transparent), to(white));
+    padding-left: 15px;
+    padding-right: 15px;
 }
 
-code span {
-    color: rgba(100%, 100%, 100%, 1);
+.notfound .notfound-404 {
+    position: absolute;
+    height: 100px;
+    top: 0;
+    left: 50%;
+    -webkit-transform: translateX(-50%);
+    -ms-transform: translateX(-50%);
+    transform: translateX(-50%);
+    z-index: -1;
 }
 
-@keyframes spin-360 {
-    from {
-        -webkit-transform: rotate(0deg);
+.notfound .notfound-404 h1 {
+    font-family: 'Maven Pro', sans-serif;
+    color: #ececec;
+    font-weight: 900;
+    font-size: 276px;
+    margin: 0px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+
+.notfound h2 {
+    font-family: 'Maven Pro', sans-serif;
+    font-size: 46px;
+    color: #000;
+    font-weight: 900;
+    text-transform: uppercase;
+    margin: 0px;
+}
+
+.notfound p {
+    font-family: 'Maven Pro', sans-serif;
+    font-size: 16px;
+    color: #000;
+    font-weight: 400;
+    text-transform: uppercase;
+    margin-top: 15px;
+}
+
+.notfound a {
+    font-family: 'Maven Pro', sans-serif;
+    font-size: 14px;
+    text-decoration: none;
+    text-transform: uppercase;
+    background: #189cf0;
+    display: inline-block;
+    padding: 16px 38px;
+    border: 2px solid transparent;
+    border-radius: 40px;
+    color: #fff;
+    font-weight: 400;
+    -webkit-transition: 0.2s all;
+    transition: 0.2s all;
+}
+
+.notfound a:hover {
+    background-color: #fff;
+    border-color: #189cf0;
+    color: #189cf0;
+}
+
+@media only screen and (max-width: 480px) {
+    .notfound .notfound-404 h1 {
+        font-size: 162px;
     }
 
-    to {
-        -webkit-transform: rotate(360deg);
+    .notfound h2 {
+        font-size: 26px;
     }
 }
