@@ -1,11 +1,13 @@
-import React, { useState } from "react";
-import { nawBar, New_Content } from "../../Info/main";
+import React, { useState, useEffect } from "react";
+import { nawBar} from "../../Info/main";
 import styles from "./NewMenu.module.css";
+import toast from "react-hot-toast";
 
 const NewContent = () => {
 	const [number, setNumber] = useState(0);
+	const [burgers, setBurgers] = useState([]); 
 
-	const burger = [...New_Content];
+	const burger = [...burgers];
 	const setOrder = (e) => {
 		if (e.currentTarget.id === '1') {
 			burger.forEach(post => post.id === +e.currentTarget.id ? post.count++ : "")
@@ -46,6 +48,18 @@ const NewContent = () => {
 
 	} 
 
+	useEffect(() => {
+		fetch("http://localhost:3001/burgers")
+			.then (response => {
+				if (response.status === 200) {
+			 return response.json()
+				}else {
+					toast.error("Ошибка соединения с сервером")
+				}
+			})
+		.then(data => setBurgers(data))
+	},[])
+
 	return (
 		<div className={styles.NewContent}>
 			<div className={styles.nawBar}>
@@ -59,7 +73,7 @@ const NewContent = () => {
 				</ul>
 			</div>
 			<div className={styles.menu}>
-				{burger.map((post) => (
+				{burgers.map((post) => (
 					<div key={post.id} className={styles.product_block}>
 						<img src={post.img} alt="" />
 						<h2>{post.title}</h2>

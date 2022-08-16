@@ -24,7 +24,7 @@ const Footer = () => {
 						<a href="/contacts">Контакты</a>
 					</li>
 					<li>
-						<a href="/phone"> <img src={phone} alt="" /> +996500405988</a>
+						<a href="tel:+996500405988"> <img src={phone} alt="" /> +996500405988</a>
 					</li>
 				</ul>
 			</div>

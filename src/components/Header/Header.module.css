@@ -19,7 +19,6 @@
 .Header a:hover {
    color: #CE242B;
    /* Цвет ссылки при наведении */
-   text-decoration: underline;
 }
 
 .Header b {

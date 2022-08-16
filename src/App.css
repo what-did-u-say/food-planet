@@ -1,8 +1,16 @@
+* {
+   -webkit-user-select: none;
+   -khtml-user-select: none;
+   -moz-user-select: none;
+   -ms-user-select: none;
+   user-select: none;
+ }
+
 body {
    margin: 0;
    padding: 0;
    box-sizing: border-box;
-   max-width: 1440px;
+   max-width: 1920px;
    margin: 0 auto;
 }
 

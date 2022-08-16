@@ -26,7 +26,6 @@
 .Footer a:hover {
     color: #ffffff;
     /* Цвет ссылки при наведении */
-    text-decoration: underline;
 }
 
 img {

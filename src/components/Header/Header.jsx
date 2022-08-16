@@ -26,7 +26,7 @@ const Header = () => {
 						<NavLink to="/contacts">Контакты</NavLink>
 					</li>
 					<li>
-						<NavLink to="/phone"> <img src={phone} alt="" /> +996500405988</NavLink>
+						<a href="tel:+996500405988"> <img src={phone} alt="" />+996500405988</a>
 					</li>
 					<li>
 						<NavLink to="/basket">
