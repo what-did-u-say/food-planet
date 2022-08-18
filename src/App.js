@@ -9,10 +9,8 @@ import MainContent from './components/MainContent/MainContent'
 import Menu from './components/Menu/Menu'
 import NewMenu from './components/NewMenu/NewMenu'
 import Review from './components/Review/Review'
-import Delivery from './pages/Delivery/Delivery'
 import NotFound from './pages/NotFound/NotFound'
 import Basket from './pages/Basket/Basket'
-
 
 
 const App = () => {
@@ -26,7 +24,6 @@ const App = () => {
         <Route path="/" element={<NewMenu />} />
         <Route path="/menu" element={<Menu />} />
         <Route path="/" element={<AboutUs />} />
-        <Route path="/delivery" element={<Delivery />} />
         <Route path="/" element={<Review />} />
         <Route path="/basket" element={<Basket />} />
       </Routes>

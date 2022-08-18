@@ -1,7 +1,7 @@
-import tofu_burger from "../assets/img/tfb1.png";
+/* import tofu_burger from "../assets/img/tfb1.png";
 import cheeseburger1 from "../assets/img/tfb2.png";
 import cheeseburger2 from "../assets/img/tfb3.png";
-import cheeseburger3 from "../assets/img/tfb4.png";
+import cheeseburger3 from "../assets/img/tfb4.png"; */
 // import pica1 from "../assets/img/pizza.png";
 // import pica2 from "../assets/img/pizza1.png";
 // import pica3 from "../assets/img/pizza2.png";
@@ -49,7 +49,7 @@ export const nawBar = [
     },
 ]
 
-export const New_Content = [
+/* export const New_Content = [
     {
         id: 1,
         number: 'number1',
@@ -90,7 +90,7 @@ export const New_Content = [
             "Булка, котлета,сыр, соленый огурец, лук, помидор, салат айсберг, соус чесночный, соус гриль, кетчуп, майонез",
         price: "200",
     },
-];
+]; */
 
 // export const New_Pizza = [
 //     {
