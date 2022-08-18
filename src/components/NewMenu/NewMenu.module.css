@@ -37,11 +37,11 @@
 .product_block {
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: flex-end;
     align-items: center;
     background-color: #254F4C;
     width: 265px;
-    margin: 80px 18px;
+    margin: 120px 18px;
     color: white;
     border-radius: 45px;
     transition: 1s;
@@ -100,7 +100,8 @@
 }
 
 .product_block img {
-    margin-top: -55px;
+    margin-top: -70px;
     width: 200px;
     height: 180px;
+    margin-bottom: 20px;
 }

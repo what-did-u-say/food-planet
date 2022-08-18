@@ -80,9 +80,9 @@ const NewContent = () => {
 						<p className={styles.description}>{post.description}</p>
 						<h3>{post.price} сом</h3>
 						<p className={styles.amount}>
-							<b onClick={minOrder} id={post.id}>&minus;</b>
+							<b min="1" onClick={minOrder} id={post.id}>&minus;</b>
 							{post.count}
-							<b onClick={setOrder} id={post.id}>+</b>
+							<b max="100" onClick={setOrder} id={post.id}>+</b>
 						</p>
 						<button>В корзину</button>
 					</div>

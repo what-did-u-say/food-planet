@@ -1,0 +1,21 @@
+.container {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+.head{
+    display: flex;
+    gap: 200px;
+    border-bottom: 0.5px solid gray;
+}
+
+.item {
+    display: flex;
+    flex-direction: column;
+    gap: 100px;
+}
+.price {
+    border-top: 0.5px solid gray;
+
+}
