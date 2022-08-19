@@ -1,21 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Prosto+One&display=swap');
+
 .container {
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-    align-items: center;
-}
-.head{
-    display: flex;
-    gap: 200px;
-    border-bottom: 0.5px solid gray;
+    width: 1100px;
+    margin: 0 auto;
+    font-family: 'ProstoOne', sans-serif;
 }
 
-.item {
+.container h1{
+    font-family: 'ProstoOne', sans-serif;
+    text-align: center;
+}
+
+.table {
+    margin-top: 50px;
+    width: 100%;
+    margin-bottom: 20px;
+    font-size: 15px;
+    background: transparent;
+    text-align: center;
+}
+
+.table tr:nth-child(1){
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 17px;
+    color: #828282;
+}
+
+
+.table td {
+    height: 100px;
+    padding: 7px;
+    border: none;
+    border-bottom: 1px solid #D2D2D2;
+    padding-bottom: 16px;
+    font-size: 17px;
+}
+
+
+.table img {
+    height: 80px;
+    width: 80px;
+}
+
+.table input {
+    text-align: center;
+    padding: 8px;
+}
+
+.container2 {
     display: flex;
     flex-direction: column;
-    gap: 100px;
+    align-items: flex-end;
+    margin-bottom: 80px;
 }
-.price {
-    border-top: 0.5px solid gray;
 
+.container2 button {
+    padding: 15px 15px;
+    border-radius: 8px;
+    border-color: rgba(37, 79, 76, 1);
+    font-size: 18px;
+    cursor: pointer;
+    background-color: rgba(37, 79, 76, 1);
+    color: #fff;
+}
+
+.container2 button:hover {
+    background-color: transparent;
+    color: rgba(37, 79, 76, 1);
+}
+
+
+.container2 form {
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+    gap: 10px;
+}
+
+.container2 input {
+    padding: 10px;
+    border-radius: 12px;
+    border: 1px solid #000;
 }
